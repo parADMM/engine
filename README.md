@@ -3,7 +3,7 @@ parADMM Engine
 
 This beta release is associated with *Testing fine-grained parallelism for the ADMM on a factor-graph* (Hao, Oghbaee, Rostami, Derbinsky, Bento).
 
-As of right now it only includes circle packing demo programs comparing single CPU core vs. multi-CPU vs. GPU.
+The code includes a demo of how to use parADMM for a GPU or multiple cpu cores that is based on the circle packing example found in the numerical section of the paper above.
 
 To compile, run: `scons`
 
